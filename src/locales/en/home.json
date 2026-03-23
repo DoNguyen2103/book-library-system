@@ -1,0 +1,11 @@
+{
+    "categories": {
+        "history": "History",
+        "art": "Art",
+        "technology": "Technology",
+        "fiction": "Fiction",
+        "science": "Science",
+        "medical": "Medical",
+        "biography": "Biography"
+   }
+}

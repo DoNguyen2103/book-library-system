@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@theme {
+  /* Font styles */
+
+  /* Setting dark */
+  --color-primary-shade: #82acff;
+  --color-primary-tint: #d4e2ff;
+  --color-primary-rgb: 171, 199, 255;
+  --color-primary: #abc7ff;
+  --color-on-primary: #002f65;
+  --color-primary-container: #00458f;
+  --color-on-primary-container: #d7e3ff;
+  --color-secondary: #bec6dc;
+  --color-on-secondary: #283041;
+  --color-secondary-container: #3e4759;
+  --color-on-secondary-container: #dae2f9;
+  --color-surface: #1a1b1f;
+  --color-on-surface: #e3e2e6;
+  --color-surface-variant: #44474e;
+  --color-on-surface-variant: #c4c6d0;
+  --color-outline: #8e9099;
+  --color-outline-variant: #44474e;
+  --color-inverse-surface: #e3e2e6;
+  --color-inverse-on-surface: #2f3033;
+  --color-inverse-primary: #005cbb;
+  --color-surface-0: #141518;
+  --color-surface-1: #21242a;
+  --color-surface-2: #262931;
+  --color-surface-3: #2a2e38;
+  --color-surface-4: #2b303a;
+  --color-surface-5: #2e333e;
+  --color-code: #d3bbff;
+  --color-red: #ffb4aa;
+  --color-green: #55e16b;
+  --color-orange: #ffb874;
+
+  /* Setting light */
+
+  /* Container */
+  --container-width-sm: 640px;
+  --container-width-md: 768px;
+  --container-width-lg: 1024px;
+  --container-width-xl: 1280px;
+  --container-width-2xl: 1440px;
+
+  /* box-shadow */
+  --shadow-navigation: 0px 0px 8px 0px rgba(171, 199, 255, 0.53);
+
+  --shadow-js: 0 0 4px 2px rgba(250, 197, 43, 0.6),
+              0 0 8px 6px rgba(250, 197, 43, 0.4),
+              0 0 16px 12px rgba(250, 197, 43, 0.2),
+              0 0 24px 20px rgba(250, 197, 43, 0.1);
+  --shadow-typeScript: 0 0 4px 2px rgba(49, 120, 198, 0.6),
+                    0 0 8px 6px rgba(49, 120, 198, 0.4),
+                    0 0 16px 12px rgba(49, 120, 198, 0.2),
+                    0 0 24px 20px rgba(49, 120, 198, 0.1);
+  --shadow-tailwindCSS: 0 0 4px 2px rgba(0, 166, 244, 0.6),
+                  0 0 8px 6px rgba(0, 166, 244, 0.4),
+                  0 0 16px 12px rgba(0, 166, 244, 0.2),
+                  0 0 24px 20px rgba(0, 166, 244, 0.1);
+  --shadow-react: 0 0 4px 2px rgba(0, 214, 253, 0.6),
+                0 0 8px 6px rgba(0, 214, 253, 0.4),
+                0 0 16px 12px rgba(0, 214, 253, 0.2),
+                0 0 24px 20px rgba(0, 214, 253, 0.1);
+  --shadow-vite: 0 0 4px 2px rgba(255,255, 255, 0.6),
+              0 0 8px 6px rgba(255,255, 255, 0.4),
+              0 0 16px 12px rgba(255,255, 255, 0.2),
+              0 0 24px 20px rgba(255,255, 255, 0.1); 
+  --shadow-router: 0 0 4px 2px rgba(193, 15, 46, 0.6),
+                  0 0 8px 6px rgba(193, 15, 46, 0.4),
+                  0 0 16px 12px rgba(193, 15, 46, 0.2),
+                  0 0 24px 20px rgba(193, 15, 46, 0.1);
+  --shadow-axios: 0 0 4px 2px rgba(103, 58, 184, 0.6),
+                0 0 8px 6px rgba(103, 58, 184, 0.4),
+                0 0 16px 12px rgba(103, 58, 184, 0.2),
+                0 0 24px 20px rgba(103, 58, 184, 0.1);
+  --shadow-swiper: 0 0 4px 2px rgba(117, 178, 223, 0.6),
+                  0 0 8px 6px rgba(117, 178, 223, 0.4),
+                  0 0 16px 12px rgba(117, 178, 223, 0.2),
+                  0 0 24px 20px rgba(117, 178, 223, 0.1);
+  --shadow-motion: 0 0 4px 2px rgba(255, 243, 18, 0.6),
+                0 0 8px 6px rgba(255, 243, 18, 0.4),
+                0 0 16px 12px rgba(255, 243, 18, 0.2),
+                0 0 24px 20px rgba(255, 243, 18, 0.1);
+}
